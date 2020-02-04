@@ -1,0 +1,16 @@
+2020.2.3
+1. 把UPS2在pFind，Walnut和DIAUmpire+comet交集的数据用人工标出来成为小数据集-用作判断。
+2. 用pFind和EncyclopeDIA跑Zhouhu数据
+
+结果：
+好像有点点少，明天考虑把二二交集拿来重新标注
+标注的速度太慢了，要以pLink3为警醒！
+
+2020.2.4
+1. 标注剩余的UPS2数据
+	改用pFindDIA，Walnut和DIAUmpire+comet的两两交集
+2. 标注zhouhu数据
+	搜索数据：pFindDIA, Walnut，EncyclopeDIA和DIAUmpire+Comet两两交集既有轻标又有重标的部分。
+	标注原则：能否找到重标信号
+		注意，这里对重标碎片离子的概念还不太明确。还不太明白是否也要在标注时考虑重标碎片离子必须存在。
+3. 用zhouhu数据来测pParse0121版提取色谱曲线的方式是否对。测量指标：母-碎PCC
