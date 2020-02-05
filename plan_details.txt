@@ -41,3 +41,12 @@
 				a. 标注集只选母离子应该有至少8个（或者放松一下，按Ruedi5个）峰的，按照这个标准来评定质谱数据，并且在论文里也这么说
 				b. 新知识，也许可以根据这个重新设计色谱提取，至少提取8个点？----有点危险，需要谨慎。要吸取之前pFindDIA1的母-碎PCC较低的教训
 				c. 还是要考虑相互干扰的情况
+				
+2020.2.6
+1. 重新标注UPS2数据
+	改用pFindDIA，DIAUmpire+comet的交集
+	可以用OSW或者ENC来辅助标注，但目前就取这两个软件
+2. 标注zhouhu数据
+	搜索数据：pFindDIA, EncyclopeDIA和DIAUmpire+Comet两两交集
+	目前看来，还是只用限定式比较安全
+3. 用zhouhu数据来测pParse0121版提取色谱曲线的方式是否对。测量指标：母-碎PCC HAVE TO BE DONE!
